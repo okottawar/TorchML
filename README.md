@@ -90,13 +90,10 @@ Planned sections (coming soon):
 
 ***
 
-## 🤝 Contributing
-
-Contributions, ideas, and suggestions are welcome—even as the repo is still being built out. Please open pull requests for improvements, bug fixes, or new algorithms.
-
-***
-
 ## ⚡️ Status
 
 **Linear models section is complete. Other sections are in development. Stay tuned!**
 
+## 📄 License
+
+This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
