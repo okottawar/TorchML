@@ -1,7 +1,7 @@
 # algorithms/linear_models/logistic_regression.py
 
 import torch
-from ..base import BaseClassifier
+from ...utils.base import BaseClassifier
 
 class LogisticRegression(BaseClassifier):
     """

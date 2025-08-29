@@ -14,6 +14,7 @@ TorchML is a **work-in-progress** repository dedicated to implementing fundament
 - **Logistic Regression:** Binary classification with gradient descent and optional regularization.
 - **Ridge Regression:** L2-regularization to combat multicollinearity and overfitting.
 - **Lasso Regression:** L1-regularization for sparse, interpretable, and feature-selective models.
+- **Elastic Regression:** A combination of both L1 and L2 regularization penalties.
 
 All models support training, prediction, and direct access to learned parameters. Each algorithm is built to be readable, extensible, and easy to test or compare.
 

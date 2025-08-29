@@ -1,7 +1,7 @@
 # algorithms/linear_models/linear_regression.py
 
 import torch
-from ..base import BaseRegressor
+from ...utils.base import BaseRegressor
 
 class LinearRegression(BaseRegressor):
     """
