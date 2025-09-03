@@ -1,5 +1,5 @@
 import torch
-from ..utils.base import BaseRegressor 
+from ...utils.base import BaseRegressor 
 
 class DecisionTreeRegressorNode:
     """
