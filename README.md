@@ -15,6 +15,10 @@ TorchML is a **work-in-progress** repository dedicated to implementing fundament
 - **Ridge Regression:** L2-regularization to combat multicollinearity and overfitting.
 - **Lasso Regression:** L1-regularization for sparse, interpretable, and feature-selective models.
 - **Elastic Regression:** A combination of both L1 and L2 regularization penalties.
+- **Decision Tree Regressor:**  Predicts continuous values by recursively splitting data into homogeneous regions.
+- **Decision Tree Classifier:** Classifies data points by learning decision rules from features.
+- **Random Forest Classifier:** An ensemble of decision trees that improves classification accuracy using bootstrap aggregation and majority voting.
+- **Random Forest Regressor:** An ensemble of decision trees that enhances regression performance by averaging predictions from multiple trees.
 
 All models support training, prediction, and direct access to learned parameters. Each algorithm is built to be readable, extensible, and easy to test or compare.
 
@@ -25,12 +29,17 @@ All models support training, prediction, and direct access to learned parameters
 ```
 TorchML/
 ├── algorithms/
-│   └── linear_models/
-│       ├── linear_regression.py
-│       ├── polynomial_regression.py
-│       ├── ridge_regression.py
-│       ├── lasso_regression.py
-│       └── logistic_regression.py
+│   │── linear_models/
+│   │   ├── linear_regression.py
+│   │   ├── polynomial_regression.py
+│   │   ├── ridge_regression.py
+│   │   ├── lasso_regression.py
+│   │   └── logistic_regression.py
+│   └── tree_models/
+│       ├── decision_tree_classifier.py
+│       ├── decision_tree_regressor.py
+│       ├── random_forest_classifier.py
+│       └── random_forest_regressor.py
 ├── utils/
 │   ├── base.py
 │   ├── metrics.py
@@ -83,7 +92,6 @@ print("Learned weights:", model.get_coefficients())
 Planned sections (coming soon):
 
 - Utilities, Datasets, Tests, etc.
-- Tree-based models (Decision Trees, Random Forest)
 - Neural networks (MLP, CNN, RNN)
 - Clustering and unsupervised models
 - End-to-end classification/regression workflows
