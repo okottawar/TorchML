@@ -17,8 +17,10 @@ TorchML is a **work-in-progress** repository dedicated to implementing fundament
 - **Elastic Regression:** A combination of both L1 and L2 regularization penalties.
 - **Decision Tree Regressor:**  Predicts continuous values by recursively splitting data into homogeneous regions.
 - **Decision Tree Classifier:** Classifies data points by learning decision rules from features.
-- **Random Forest Classifier:** An ensemble of decision trees that improves classification accuracy using bootstrap aggregation and majority voting.
 - **Random Forest Regressor:** An ensemble of decision trees that enhances regression performance by averaging predictions from multiple trees.
+- **Random Forest Classifier:** An ensemble of decision trees that improves classification accuracy using bootstrap aggregation and majority voting.
+- **Gradient Boosting Regressor:** Constructs an ensemble of weak regressors step-by-step, with each model minimizing the residual errors of its predecessor to enhance regression predictions.
+- **Gradient Boosting Classifier:** Builds an ensemble of weak classifiers sequentially, where each new model corrects the errors of the previous ones to improve classification accuracy.
 
 All models support training, prediction, and direct access to learned parameters. Each algorithm is built to be readable, extensible, and easy to test or compare.
 
