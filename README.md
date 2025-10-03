@@ -106,7 +106,7 @@ Planned sections (coming soon):
 
 ## ⚡️ Status
 
-**Linear models section is complete. Other sections are in development. Stay tuned!**
+**Tree based models section is complete. Other sections are in development. Stay tuned!**
 
 ## 📄 License
 
