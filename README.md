@@ -41,7 +41,10 @@ TorchML/
 │       ├── decision_tree_classifier.py
 │       ├── decision_tree_regressor.py
 │       ├── random_forest_classifier.py
-│       └── random_forest_regressor.py
+│       ├── random_forest_regressor.py
+│       ├── gradient_boosting_regressor.py
+│       └── gradient_boosting_classifier.py
+│       
 ├── utils/
 │   ├── base.py
 │   ├── metrics.py
